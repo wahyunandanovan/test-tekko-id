@@ -25,7 +25,7 @@ function Home() {
             })}
 
          </List>
-         <Button variant='contained' sx={{ m: 2 }} onClick={() => navigate('/')}>logout</Button>
+         <Button variant='contained' sx={{ m: 2, backgroundColor: "#1ac073" }} onClick={() => navigate('/')} >logout</Button>
       </div>
    )
 }
