@@ -14,8 +14,8 @@ function Register() {
          <div>
             <Box width='100%' height={h} >
                <img src={logo} alt="logo" width='40px' />
-               <p className={styles.titleInput}>Wellcome Back</p>
-               <p className={styles.register}>Register your account</p>
+               <p className={styles.titleInput} style={{ fontFamily: "Public Sans, sans-serif" }}>Wellcome Back</p>
+               <p className={styles.register} style={{ fontFamily: "Public Sans, sans-serif" }}>Register your account</p>
                <div className={styles.input}>
                   <TextField fullWidth label="Username" className={styles.form} />
                </div>
